@@ -1,0 +1,61 @@
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+*.log
+*.out
+*.err
+
+# Test coverage reports
+coverage/
+*.coverage
+*.cov
+.cache
+
+# Python packaging artifacts
+*.egg
+*.egg-info/
+dist/
+build/
+*.wheel
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+
+# Ignore raw and processed data
+data/*.csv
+data/*.xlsx
+data/*.json
+data/statements/
+
+
+# Environment variables
+.env
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains (PyCharm)
+.idea/
+
+# Ignore generated plots or outputs
+*.png
+*.jpg
+*.pdf
+
+# Combined CSV output
+statements/combined_data.csv
